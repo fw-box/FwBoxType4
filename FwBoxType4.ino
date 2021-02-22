@@ -13,7 +13,7 @@
 #include "FwBox.h"
 
 #define DEVICE_TYPE 4
-#define FIRMWARE_VERSION "1.1.2"
+#define FIRMWARE_VERSION "1.1.4"
 
 //
 // Debug definitions
