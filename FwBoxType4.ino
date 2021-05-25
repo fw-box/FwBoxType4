@@ -13,7 +13,7 @@
 #include "FwBox.h"
 
 #define DEVICE_TYPE 4
-#define FIRMWARE_VERSION "1.1.7"
+#define FIRMWARE_VERSION "1.1.8"
 
 //
 // Debug definitions
@@ -43,7 +43,7 @@ unsigned long ReadingTime = 0;
 
 void setup()
 {
-  Serial.begin(9600);
+  Serial.begin(115200);
 
   pinMode(PIN_LED, OUTPUT);
   pinMode(PIN_RELAY, OUTPUT);
